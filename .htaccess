@@ -1,0 +1,44 @@
+# ------------------------------------------------------
+# URL Friendly
+# ------------------------------------------------------
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+######## Rules ########
+
+# RewriteRule ^$ index.php
+
+# ------------------------------------------------------
+# GZIP Compression
+# ------------------------------------------------------
+
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+
+
+
+# ------------------------------------------------------
+# Optimize Requests
+# ------------------------------------------------------
+
+ExpiresActive On
+ExpiresDefault "access plus 1 month"
+
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/ico "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+
+
+
+# ------------------------------------------------------
+# Error Pages
+# ------------------------------------------------------
+
+ErrorDocument 404 404.html
