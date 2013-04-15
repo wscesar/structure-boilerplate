@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <title>Título</title>
 
+    <!-- Base Link -->
+    <base href="">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico">
+
     <!-- Css -->
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
     
