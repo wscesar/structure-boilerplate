@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Título</title>
+    <title>Structure Boilerplate</title>
 
     <!-- Base Link -->
     <base href="">
