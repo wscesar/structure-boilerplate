@@ -1,8 +1,13 @@
+<?php include 'inc/controller.php'; ?>
+
 <!doctype html>
 <html lang="pt-BR">
 <head>
+    
     <meta charset="UTF-8">
-    <title>Structure Boilerplate</title>
+    <?=$metas?>
+
+    <title><?=$title?></title>
 
     <!-- Base Link -->
     <base href="">
