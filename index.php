@@ -5,6 +5,7 @@
 <head>
     
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280">
     <?=$metas?>
 
     <title><?=$title?></title>
