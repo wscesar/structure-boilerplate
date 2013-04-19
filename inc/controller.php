@@ -1,5 +1,4 @@
 <?php
-
     // Load other Includes
 
     # include 'something.php';
