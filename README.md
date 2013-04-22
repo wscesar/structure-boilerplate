@@ -13,10 +13,14 @@ This is a standard framework for developing web apps.
     |   /-> fonts
     |   /-> sass
     |   |   |-> fonts.sass
+    |   |   |-> footer.sass
+    |   |   |-> header.sass
     |   |   |-> init.sass
     |   |   |-> main.sass
     |   |  
     |   |-> fonts.css
+    |   |-> footer.css
+    |   |-> header.css
     |   |-> init.css
     |   |-> main.css
     |   
