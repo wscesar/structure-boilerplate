@@ -12,6 +12,7 @@ This is a standard framework for developing web apps.
     /-> css
     |   /-> fonts
     |   /-> sass
+    |   |   |-> config.rb
     |   |   |-> fonts.sass
     |   |   |-> footer.sass
     |   |   |-> header.sass
