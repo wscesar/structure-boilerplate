@@ -17,7 +17,7 @@
 
     $msg = '<table>
                 <tr>
-                    <td>oiçá</td>
+                    <td>HTML MESSAGE</td>
                 </tr>
             </table>';
 
