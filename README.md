@@ -36,7 +36,8 @@ This is a standard framework for developing web apps.
     |
     /-> js
     |   |-> app.js
-    |   |-> jquery.js
+    |   |-> html5.js
+    |   |-> zepto.js
     |
     /-> pages
     |   |-> home.php
