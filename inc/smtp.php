@@ -35,7 +35,7 @@
             $this->put("AUTH LOGIN");
             $this->put(base64_encode($this->user));
             $this->put(base64_encode($this->pass));
-            $this->put("MAIL FROM: <".$from.">");
+            $this->put("MAIL FROM: <".$this->user.">");
             $this->put("RCPT TO: <".$to.">");
             $this->put("DATA");
             $this->put($headers);
