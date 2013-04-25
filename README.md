@@ -33,6 +33,8 @@ This is a standard framework for developing web apps.
     |   |-> controller.php
     |   |-> footer.php
     |   |-> header.php
+    |   |-> send-contact.php
+    |   |-> smtp.php
     |
     /-> js
     |   |-> app.js
