@@ -18,13 +18,13 @@ This is a standard framework for developing web apps.
     |   |   |-> header.sass
     |   |   |-> init.sass
     |   |   |-> main.sass
-    |   |  
+    |   |
     |   |-> fonts.css
     |   |-> footer.css
     |   |-> header.css
     |   |-> init.css
     |   |-> main.css
-    |   
+    |
     /-> img
     |   |-> _blank.gif
     |   |-> favicon.ico
@@ -39,6 +39,7 @@ This is a standard framework for developing web apps.
     /-> js
     |   |-> app.js
     |   |-> html5.js
+    |   |-> jquery.js
     |   |-> zepto.js
     |
     /-> pages
