@@ -21,9 +21,9 @@
 
 </head>
 <body>
-    
+
     <?php
-    
+
         // Your code here…
 
     ?>
@@ -31,7 +31,7 @@
 
     <!-- Js -->
     <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
-    <script src="js/zepto.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
 
     <!-- Analytics -->
