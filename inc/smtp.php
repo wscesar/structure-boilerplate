@@ -1,11 +1,11 @@
 <?php
 
-    /* --- SMTP Simple class created by Renan Veroneze © 2013 --- */    
+    /* --- SMTP Simple class created by Renan Veroneze © 2013 --- */
 
     /*  ==========================================================================
         SMTP => Send mail
         ==========================================================================  */
-    
+
     class SMTP {
 
         var $host;
@@ -22,11 +22,11 @@
 
             if(!$from) $from = $this->user;
 
-            $headers  = "Content-type: text/html\n";
+            $headers  = "Content-type: text/html; charset=utf-8\n";
             $headers .= "To: <".$to.">\n";
             $headers .= "From: <".$from.">\n";
             $headers .= "Subject: ".$subject."\n\n";
-            
+
             $headers .= "<html><body>".$message."</body></html>\n.\n";
 
             $this->smtp = fsockopen($this->host, $this->port);
