@@ -4,11 +4,11 @@
     # include 'something.php';
 
     // Processing the page
-    
+
     $page = !empty($_GET['page']) ? $_GET['page'] : 'home';
 
     // Choosing the title and metatags
-    
+
     $title_ptn = 'Structure Boilerplate';
 
     switch($page) {
@@ -19,7 +19,7 @@
 
         default:
             $title = $title_ptn;
-                        
+
     }
 
 ?>
