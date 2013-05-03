@@ -1,5 +1,5 @@
 ;(function(win, doc, $) {
-    $(function(){
+    $(function() {
 
         /* --- Your code here --- */
 
