@@ -1,5 +1,7 @@
-$(function() {
+;(function(win, doc, $) {
+    $(function(){
 
-    /* --- Your javascript code here --- */
+        /* --- Your code here --- */
 
-});
+    });
+}(window, document, jQuery));
