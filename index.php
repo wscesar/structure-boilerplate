@@ -19,6 +19,9 @@
     <!-- Css -->
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- HTML5 Shiv -->
+    <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+
 </head>
 <body>
 
@@ -29,7 +32,6 @@
     ?>
 
     <!-- Js -->
-    <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
     <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
 
