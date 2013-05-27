@@ -8,43 +8,46 @@ This is a standard framework for developing web apps.
 
 ###### Pattern
 
-    .
-    /-> css
-    |   /-> fonts
-    |   /-> sass
-    |   |   |-> config.rb
-    |   |   |-> fonts.sass
-    |   |   |-> footer.sass
-    |   |   |-> header.sass
-    |   |   |-> init.sass
-    |   |   |-> main.sass
+	.
+	/-> assets
+	|	/-> coffee
+	|	|	|-> app.coffee
     |   |
-    |   |-> fonts.css
-    |   |-> footer.css
-    |   |-> header.css
-    |   |-> init.css
-    |   |-> main.css
-    |
-    /-> img
-    |   |-> _blank.gif
-    |   |-> favicon.ico
-    |
-    /-> inc
-    |   |-> controller.php
-    |   |-> footer.php
-    |   |-> header.php
-    |   |-> send-contact.php
-    |   |-> smtp.php
-    |
-    /-> js
-    |   |-> app.js
-    |   |-> html5.js
-    |   |-> jquery.js
-    |   |-> zepto.js
-    |
-    /-> pages
-    |   |-> home.php
-    |
-    |-> .htaccess
-    |-> index.php
-    |-> README.md (this)
+	|	/-> css
+	|	|	/-> fonts
+	|	|	|-> fonts.css
+	|	|	|-> footer.css
+	|	|	|-> header.css
+	|	|	|-> init.css
+	|	|	|-> main.css
+	|	|
+	|	/-> img
+	|	|	|-> favicon.ico
+	|	|
+	|	/-> js
+	|	|	|-> app.js
+	|	|	|-> html5.js
+	|	|	|-> jquery.js
+	|	|	|-> zepto.js
+	|	|
+	|	/-> sass
+	|		|-> config.rb
+	|		|-> fonts.sass
+	|		|-> footer.sass
+	|		|-> header.sass
+	|		|-> init.sass
+	|		|-> main.sass
+	|
+	/-> inc
+	|	|-> controller.php
+	|	|-> footer.php
+	|	|-> header.php
+	|	|-> send-contact.php
+	|	|-> smtp.php
+	|
+	/-> pages
+	|	|-> home.php
+	|
+	|-> .htaccess
+	|-> index.php
+	|-> README.md (this)
