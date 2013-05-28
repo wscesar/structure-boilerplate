@@ -1,4 +1,4 @@
-_gaq = [['_setAccount', 'UA-7409092-9'], ['_trackPageview']];
+_gaq = [['_setAccount', '### Your Analytics Code Here ###'], ['_trackPageview']];
 
 (function() {
     var ga = document.createElement('script');
