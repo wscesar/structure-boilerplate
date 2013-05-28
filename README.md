@@ -31,7 +31,6 @@ This is a standard framework for developing web apps.
 	|	|	|-> zepto.js
 	|	|
 	|	/-> sass
-	|		|-> config.rb
 	|		|-> fonts.sass
 	|		|-> footer.sass
 	|		|-> header.sass
@@ -49,5 +48,8 @@ This is a standard framework for developing web apps.
 	|	|-> home.php
 	|
 	|-> .htaccess
-	|-> index.php
 	|-> README.md (this)
+	|-> config.rb
+	|-> index.php
+
+	
