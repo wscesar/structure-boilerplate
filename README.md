@@ -25,6 +25,7 @@ This is a standard framework for developing web apps.
 	|	|	|-> favicon.ico
 	|	|
 	|	/-> js
+    |   |   |-> analytics.js
 	|	|	|-> app.js
 	|	|	|-> html5.js
 	|	|	|-> jquery.js
@@ -52,4 +53,3 @@ This is a standard framework for developing web apps.
 	|-> config.rb
 	|-> index.php
 
-	
