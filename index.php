@@ -14,10 +14,10 @@
     <base href="">
 
     <!-- Favicon -->
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" href="assets/img/favicon.ico">
 
     <!-- Css -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- HTML5 Shiv -->
     <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
@@ -32,11 +32,11 @@
     ?>
 
     <!-- Js -->
-    <script src="js/jquery.js"></script>
-    <script src="js/app.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/app.js"></script>
 
     <!-- Analytics -->
-    <script src="js/analytics.js"></script>
+    <script src="assets/js/analytics.js"></script>
 
 </body>
 </html>
