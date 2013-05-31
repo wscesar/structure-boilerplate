@@ -10,6 +10,8 @@ RewriteCond %{SCRIPT_FILENAME} !-d
 
 # RewriteRule ^$ index.php
 
+
+
 # ------------------------------------------------------
 # GZIP Compression
 # ------------------------------------------------------

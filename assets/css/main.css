@@ -61,7 +61,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* --- Font Name --- */
 @font-face {
   font-family: "Font Example";
-  src: url('/assets/css/fonts/font-example.eot') format('embedded-opentype'), url('/assets/css/fonts/font-example.svg') format('svg'), url('/assets/css/fonts/font-example.ttf') format('truetype'), url('/assets/css/fonts/font-example.woff') format('woff');
+  src: url('fonts/font-example.eot') format('embedded-opentype'), url('fonts/font-example.svg') format('svg'), url('fonts/font-example.ttf') format('truetype'), url('fonts/font-example.woff') format('woff');
 }
 
 /* --- Normalix by Renan Veroneze © 2013 --- */

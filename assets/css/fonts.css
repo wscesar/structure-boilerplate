@@ -1,72 +1,8 @@
-/*
-Syntax error: Undefined mixin 'font-face'.
-        on line 9 of /Users/renanveroneze/Dropbox/Labs/Structure-Boilerplate/App/assets/sass/fonts.sass, in `font-face'
-        from line 9 of /Users/renanveroneze/Dropbox/Labs/Structure-Boilerplate/App/assets/sass/fonts.sass
-
-Backtrace:
-/Users/renanveroneze/Dropbox/Labs/Structure-Boilerplate/App/assets/sass/fonts.sass:9:in `font-face'
-/Users/renanveroneze/Dropbox/Labs/Structure-Boilerplate/App/assets/sass/fonts.sass:9
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/tree/root_node.rb:20:in `render'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-compass-0.0.6/lib/guard/compass.rb:47:in `run_on_change'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:99:in `block in run_supervised_task'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:97:in `catch'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:97:in `run_supervised_task'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:144:in `block in run_first_task_found'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:142:in `each'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:142:in `run_first_task_found'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:79:in `block in run_on_changes'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:175:in `block (3 levels) in scoped_guards'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:173:in `each'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:173:in `block (2 levels) in scoped_guards'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:172:in `catch'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:172:in `block in scoped_guards'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:170:in `each'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:170:in `scoped_guards'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard/runner.rb:72:in `run_on_changes'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard.rb:105:in `block (2 levels) in setup_listener'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard.rb:368:in `block in within_preserved_state'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard.rb:365:in `synchronize'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard.rb:365:in `within_preserved_state'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/guard-1.8.0/lib/guard.rb:104:in `block in setup_listener'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/listen-1.1.0/lib/listen/listener.rb:234:in `call'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/listen-1.1.0/lib/listen/listener.rb:234:in `on_change'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/listen-1.1.0/lib/listen/listener.rb:266:in `block in initialize_adapter'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/listen-1.1.0/lib/listen/adapter.rb:239:in `call'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/listen-1.1.0/lib/listen/adapter.rb:239:in `report_changes'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/listen-1.1.0/lib/listen/adapter.rb:308:in `poll_changed_directories'
-/Users/renanveroneze/.rvm/gems/ruby-2.0.0-p0/gems/listen-1.1.0/lib/listen/adapter.rb:284:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'font-face'.\A         on line 9 of /Users/renanveroneze/Dropbox/Labs/Structure-Boilerplate/App/assets/sass/fonts.sass, in `font-face'\A         from line 9 of /Users/renanveroneze/Dropbox/Labs/Structure-Boilerplate/App/assets/sass/fonts.sass"; }
+/* Web Fonts
+ * These files are in the folder: 'css/fonts/'
+ */
+/* --- Font Name --- */
+@font-face {
+  font-family: "Font Example";
+  src: url('fonts/font-example.eot') format('embedded-opentype'), url('fonts/font-example.svg') format('svg'), url('fonts/font-example.ttf') format('truetype'), url('fonts/font-example.woff') format('woff');
+}
