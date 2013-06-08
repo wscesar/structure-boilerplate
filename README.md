@@ -12,7 +12,7 @@ This is a standard framework for developing web apps.
     /-> assets
     |    /-> coffee
     |    |    |-> app.coffee
-    |   |
+    |    |
     |    /-> css
     |    |    /-> fonts
     |    |    |-> fonts.css
@@ -25,7 +25,7 @@ This is a standard framework for developing web apps.
     |    |    |-> favicon.ico
     |    |
     |    /-> js
-    |   |   |-> analytics.js
+    |    |   |-> analytics.js
     |    |    |-> app.js
     |    |    |-> html5.js
     |    |    |-> jquery.js
