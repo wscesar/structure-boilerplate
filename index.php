@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- HTML5 Shiv -->
-    <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
 
 </head>
 <body>
