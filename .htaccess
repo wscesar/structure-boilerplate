@@ -45,7 +45,16 @@ ExpiresByType application/x-javascript "access plus 1 month"
 
 
 # ------------------------------------------------------
+# Security
+# ------------------------------------------------------
+
+Options -Indexes
+
+
+
+# ------------------------------------------------------
 # Error Pages
 # ------------------------------------------------------
 
+ErrorDocument 403 403.html
 ErrorDocument 404 404.html
