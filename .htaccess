@@ -3,8 +3,13 @@
 # ------------------------------------------------------
 
 RewriteEngine On
-RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} -f [OR]
+RewriteCond %{SCRIPT_FILENAME} -d
+
+######## Skip the next `n` rules ########
+
+RewriteRule . - [S=1]
+
 
 ######## Rules ########
 
