@@ -21,27 +21,33 @@ RewriteRule . - [S=1]
 # GZIP Compression
 # ------------------------------------------------------
 
-AddOutputFilterByType DEFLATE text/html
-AddOutputFilterByType DEFLATE text/css
-AddOutputFilterByType DEFLATE text/javascript
+<IfModule mod_deflate.c>
 
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+
+</IfModule>
 
 
 # ------------------------------------------------------
 # Optimize Requests
 # ------------------------------------------------------
 
-ExpiresActive On
-ExpiresDefault "access plus 1 month"
+<IfModule mod_expires.c>
+  
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
 
-ExpiresByType image/gif "access plus 1 month"
-ExpiresByType image/jpeg "access plus 1 month"
-ExpiresByType image/png "access plus 1 month"
-ExpiresByType image/ico "access plus 1 month"
-ExpiresByType text/css "access plus 1 month"
-ExpiresByType text/javascript "access plus 1 month"
-ExpiresByType application/x-javascript "access plus 1 month"
-
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/ico "access plus 1 month"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/x-javascript "access plus 1 month"
+  
+</IfModule>
 
 
 # ------------------------------------------------------
