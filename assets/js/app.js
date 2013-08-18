@@ -1,7 +1,7 @@
 (function() {
   (function(win, doc, $) {
     return $(function() {
-      return alert("Test");
+      return alert("No Coffee");
     });
   })(window, document, jQuery);
 
