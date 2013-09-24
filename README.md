@@ -25,11 +25,13 @@ This is a standard framework for developing web apps.
     |    |    |-> favicon.ico
     |    |
     |    /-> js
-    |    |    |-> analytics.js
-    |    |    |-> app.js
-    |    |    |-> html5.js
-    |    |    |-> jquery.js
-    |    |    |-> zepto.js
+    |    |    /-> lib
+    |    |    |    |-> app.js
+    |    |    |
+    |    |    /-> vendor
+    |    |         |-> analytics.js
+    |    |         |-> html5.js
+    |    |         |-> jquery.js
     |    |
     |    /-> sass
     |        |-> config.rb
